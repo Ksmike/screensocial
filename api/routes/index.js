@@ -1,5 +1,4 @@
 const ses = require('node-ses');
-const client = ses.createClient({ key: 'AKIAIISBJCIJPOP6EFAQ', secret: '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', amazon: 'https://email.eu-west-1.amazonaws.com' });
 module.exports = (app, db) => {
 	app.post('/api/contact', (req, res) => {
 		const info = {
