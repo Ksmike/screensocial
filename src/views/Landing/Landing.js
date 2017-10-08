@@ -82,7 +82,7 @@ class Landing extends Component {
           </div>
         </div>
         <Modal isOpen={this.state.modal} toggle={this.toggleModal} className='modal-info'>
-          <div><ModalHeader toggle={this.toggleModal}>Automation Squared</ModalHeader>
+          <div><ModalHeader toggle={this.toggleModal}>Screen Social</ModalHeader>
           <ModalBody>
             <h5 className="modal-title">Thank you <span className="capitalize">{this.state.info.name}</span>,</h5><br/>
             We'll be in contact with you shortly

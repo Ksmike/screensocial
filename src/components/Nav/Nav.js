@@ -17,22 +17,18 @@ class Nav extends Component {
     let activeClass = "nav-link";
 
     return (
-      <header>
-        <ul className="nav nav-pills nav-fill">
-          <li className="nav-item">
-            <a className={activeClass} href="/#/">Frontpage</a>
-          </li>
-          <li className="nav-item">
-            <a className={activeClass} href="/#/investor">Investor</a>
-          </li>
-          <li className="nav-item">
-            <a className={activeClass} href="/#/SME">SME</a>
-          </li>
-          <li className="nav-item">
-            <a className={activeClass} href="/#/acquisition">Acquisition</a>
-          </li>
-        </ul>
-        <img className="header-logo animated pulse infinite" src="/img/screensocial_logo_dark_2x.png"/>
+      <header className="row">
+        <div className="col-lg-2">
+          <img className="header-logo" src="/img/screensocial_logo_dark_2x.png" />
+        </div>
+        <div className="col-lg-10">
+          <ul className="nav nav-pills nav-fill">
+            <li className="nav-item"><a className="nav-link" href="/#/">Frontpage</a></li>
+            <li className="nav-item"><a className="nav-link" href="/#/investor">Investor</a></li>
+            <li className="nav-item"><a className="nav-link" href="/#/SME">SME</a></li>
+            <li className="nav-item"><a className="nav-link" href="/#/acquisition">Acquisition</a></li>
+          </ul>
+        </div>
       </header>
     )
   }

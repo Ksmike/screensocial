@@ -6,13 +6,18 @@
 	margin: auto;
 }
 
+header {
+	background-color: #303030; 
+}
+
 footer {
-	border-top: 2px solid #ee365c;
+	border-top: 2px solid #fec90f;
 	padding-top: 25px;
 }
 
 .header-logo {
+	width: 100px;
 	margin: auto;
 	display: grid;
-	border-bottom: 2px solid #ee365c;
+	border-bottom: 2px solid #fec90f;
 }
